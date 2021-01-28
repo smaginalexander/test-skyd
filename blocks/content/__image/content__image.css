@@ -1,0 +1,20 @@
+.content__image {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .content__image {
+        display: block;
+        width: 180px;
+        height: 120px;
+        object-fit: contain;
+        align-self: flex-start;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .content__image {
+        display: none;
+    }
+}

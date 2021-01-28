@@ -1,0 +1,17 @@
+@import url(./__block/content__block.css);
+@import url(./__image/content__image.css);
+@import url(./__title/content__title.css);
+@import url(./__text/content__text.css);
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        padding: 0 20px 0 20px;
+        flex-direction: column;
+    }
+}

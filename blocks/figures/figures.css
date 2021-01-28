@@ -1,0 +1,15 @@
+@import url(./__container/figures__container.css);
+@import url(./__square/figures__square.css);
+
+.figures {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .figures {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 20px 0 20px;
+    }
+}

@@ -1,0 +1,25 @@
+@import url(./__line/header__nav.css);
+@import url(./__logo/header__logo.css);
+
+.header {
+    height: 122px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 91px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0 20px 0 20px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .header {
+        padding: 0 10px 0 10px;
+    }
+}

@@ -1,0 +1,9 @@
+.content__text {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .content__text {
+        display: block;
+    }
+}

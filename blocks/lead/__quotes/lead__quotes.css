@@ -1,0 +1,21 @@
+.lead__quotes {
+    width: 18.7%;
+    height: 320px;
+    background: #c4c4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__quotes {
+        width: 21.7%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .lead__quotes {
+        width: 90%;
+        margin: auto;
+    }
+}

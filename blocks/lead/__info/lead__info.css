@@ -1,0 +1,11 @@
+.lead__info {
+    width: 33.5%;
+    height: 320px;
+    background: #0078dc;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__info {
+        display: none;
+    }
+}

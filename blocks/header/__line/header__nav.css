@@ -1,0 +1,11 @@
+.header__nav {
+    background-color: #0078dc;
+    height: 31px;
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .header__nav {
+        width: 42px;
+        height: 42px;
+    }
+}
